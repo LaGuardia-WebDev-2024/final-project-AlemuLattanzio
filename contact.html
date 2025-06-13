@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Final Project</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      /* Styling Only Related To THIS Page */
+      .parent-flex {
+        display: flex;
+        background-color: grey;
+        justify-content: space-around;
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+
+      img {
+        max-width: 30%;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <!-- ⬆⬆⬆⬆ Nav Bar -->
+    <ul>
+      <li><a href="index.html">About Me</a></li>
+      <li><a href="dance.html">Dance</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a class="active" href="contact.html">Contact</a></li>
+      
+    </ul>
+    <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
+    <h1> Contact Me</h1>
+    
+    <p>
+      Email: lalemu33@gmail.com
+    </p>
+
+    
+    
+   <form action="https://api.web3forms.com/submit" method="POST">
+
+    <input type="hidden" name="access_key" value="7d35c8ca-1498-47e4-bea7-f650d00fd8d4">
+<input type="hidden" name="subject" value="New Submission from Web3Forms">
+     
+    <p>
+      Name
+     </p>
+     <input type="text" name="name" required>
+     <p>
+      Email
+     </p>
+    <input type="email" name="email" required>
+     
+     <p>
+      Message
+     </p>
+
+    <textarea name="message" required></textarea>
+   
+     <input type="hidden" name="redirect" value="https://web3forms.com/success">
+    
+     <button type="submit">Submit Form</button>
+
+</form>
+  </body>
+</html>

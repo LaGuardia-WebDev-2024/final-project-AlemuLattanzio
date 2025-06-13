@@ -8,25 +8,33 @@
       /* Styling Only Related To THIS Page */
       .parent-flex {
         display: flex;
-        background-color: purple;
+        background-color: grey;
+        align-items: center;
         justify-content: space-around;
-        padding: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 50px;
       }
 
-      img {
-        max-width: 30%;
-        border-radius: 10px;
+      .parent-flex img {
+        width: 500px;
+        padding: 10px;
+        height: 700px
+        
+      }
+      .child-flex p {
+        background-color: #0B1D51;
+        padding: 10px;
+        margin: 10px;
+        color: white;
       }
     </style>
   </head>
   <body>
     <!-- ⬆⬆⬆⬆ Nav Bar -->
     <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="aboutme.html">About Me</a></li>
-      <li><a class="active" href="art.html">Art</a></li>
+      <li><a href="index.html">About Me</a></li>
+      <li><a class="active" href="dance.html">Dance</a></li>
       <li><a href="resume.html">Resume</a></li>
+      <li><a href="contact.hmtl">Contact</a></li>
       <li style="float: right">
         <a target="_blank" href=""
           ><img
@@ -42,25 +50,23 @@
         /></a>
       </li>
     </ul>
+
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
-    <h1>My Art</h1>
-
+    <h1>Dance </h1>
     <div class="parent-flex">
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/Untitled100.png?v=1746635377571"
-      />
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/IMG_3767.png?v=1746635392409"
-      />
+      <div class="child-flex">
+       <p class="child-flex">
+         <img
+          src="https://cdn.glitch.global/73ab1f93-b9da-47cf-97d4-6738de931b95/Resized_Resized_20240817_161534.JPEG?v=1749222211405"
+        />
+        </p> 
+      </div>
+      
+      
+  
+        
+   
     </div>
-
-    <div class="parent-flex">
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/Untitled100.png?v=1746635377571"
-      />
-      <img
-        src="https://cdn.glitch.global/0c264bf4-23f0-42f0-ac26-96d6871eec31/IMG_3767.png?v=1746635392409"
-      />
-    </div>
+    
   </body>
 </html>
