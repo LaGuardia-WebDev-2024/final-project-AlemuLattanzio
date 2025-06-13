@@ -13,7 +13,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333333;
+  background-color: #0B1D51;
   position: fixed;
   top: 0;
   width: 100%;
@@ -26,20 +26,20 @@ li {
 
 li a {
   display: block;
-  color: white;
+  color:white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li a:hover:not(.active) {
-  background-color: yellow;
+  background-color: black;
 }
 
 .active {
-  background-color: red;
+  background-color: navy;
 }
 
 h1 {
-  width: 100%;
+  width: 10%;
 }
